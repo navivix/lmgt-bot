@@ -3,7 +3,7 @@ from urllib.parse import quote
 import discord
 from discord.ext import commands
 
-description = 'A bot that lets you generate Let Me Google That For You links'
+description = 'A bot that lets you generate Let Me Google That links'
 
 intents = discord.Intents.default()
 intents.message_content = True
